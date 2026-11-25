@@ -1,3 +1,4 @@
+import React from 'react';
 import {useEffect,useState} from 'react';
 import {listExpenses} from '../Omar_Hassan_Ebayah/expensesService.js';
 const money=new Intl.NumberFormat('en-HU',{style:'currency',currency:'HUF',maximumFractionDigits:0});

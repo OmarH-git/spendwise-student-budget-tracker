@@ -1,3 +1,4 @@
+import React from 'react';
 import { useCallback, useEffect, useState } from 'react';
 import { getMonthlyBudget, listExpenses, listFixedFees } from '../Omar_Hassan_Ebayah/expensesService.js';
 import { isDemoMode } from '../Omar_Hassan_Ebayah/supabaseClient.js';
